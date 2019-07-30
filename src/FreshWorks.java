@@ -89,10 +89,10 @@ class FreshWorksE extends Thread {
                 {
                     case "1":
                     {
-                        BigInteger ei = new BigInteger(""+8);
+                        
                         BigInteger f = new BigInteger(""+getFolderSize(new File("./Data/")));
                         BigInteger gbsize = new BigInteger(""+1073741824);
-                        gbsize = gbsize.multiply(ei);
+                       
                         if(f.compareTo(gbsize)==-1)
                         {
                             Create c = new Create();
